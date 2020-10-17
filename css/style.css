@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --primary-color: #2b81e4;
+    --secondary-color: #eee;
+    --white-color: #fff;
+    --grey-color: #555;
+    --light-grey-color: #777;
+    --button-color:#1c8314;
+    --button-color-hover: #40ba37;
+}
+/* ======================================================carousel====================================================== */
+#carousel .carousel-item.river {
+    background-image: url("../images/5.jpg");
+  }
+  
+  #carousel .carousel-item.riverside {
+    background-image: url("../images/2.jpg");
+  }
+  
+  #carousel .carousel-item.rivervalley {
+    background-image: url("../images/3.jpg");
+  }
+  
+  #carousel .carousel-item {
+    height: 90vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+  
+  #carousel .carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
+  
+  #carousel .carousel-item .caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: white;
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  
+  #carousel .caption h2 {
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  
+  #carousel .caption p {
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+  }
+  
+  #carousel .caption a {
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+  }
+  
+  /* Button */
+  .delicious-btn {
+    display: inline-block;
+    min-width: 160px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+    border-left: 3px solid var(--button-color);
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 58px;
+    font-weight: 600;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-transform: capitalize;
+    background-color:var(--button-color-hover);
+  }
+  
+  .delicious-btn.active, .delicious-btn:hover, .delicious-btn:focus {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--button-color);
+    border-color: var(--button-color-hover);
+  }
+  /* ================================================================================================================= */
