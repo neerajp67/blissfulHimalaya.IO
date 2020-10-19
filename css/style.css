@@ -101,7 +101,7 @@ background-color:var(--button-color-hover);
 /* ============================About us =============================== */
  #About-us{
   text-align: center;
-  margin: 5rem;
+/*   margin: 5rem; */
 }
 #About-us p{
   font-size: 1rem;
